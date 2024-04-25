@@ -1,0 +1,49 @@
+.App-Download{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F0F0F5;
+    margin-top: 50PX;
+    padding: 20px;
+}
+
+.App-text h1{
+   font-size: 30px;
+   font-weight: 600;
+   width: 60%;
+   color: #262626;
+}
+
+.App-images{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.App-images img{
+    width: 150px;
+}
+
+
+@media (max-width:750px) {
+
+    .App-Download{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap:20px ;
+    }
+
+    .App-text h1{
+        font-size: 15px;
+        font-weight: 500;
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .App-images img{
+        width:90px ;
+    }
+}
