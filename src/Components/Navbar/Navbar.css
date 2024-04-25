@@ -82,7 +82,10 @@
 @media (max-width:750px) {
 
    .Title{
-     font-size: 20px;
+     font-size: 25px;
+   }
+   .search-field{
+    display: none;
    }
     .nav-menu{
         display: none;
@@ -93,7 +96,7 @@
 
     }
     .nav-basket img{
-       width: 25px;
+       width: 28px;
     }
     .navbar-right{
         gap: 10px;
@@ -103,6 +106,7 @@
     }
     .search-field img{
      width: 25px;
+     margin-top: 5px;
     }
    
     .search-field input{

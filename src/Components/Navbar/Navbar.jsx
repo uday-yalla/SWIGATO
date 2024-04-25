@@ -1,12 +1,11 @@
 import React, {  useState } from 'react'
 import './Navbar.css'
 import { assets } from '../../assets/assets'
-import { Link } from 'react-router-dom'
-
+import { Link} from 'react-router-dom'
 const Navbar = ({setShowForm}) => {
   return (
     <div className='navbar'>
-    <h1 className='Title'>SWIGATO.</h1>
+    <h1  className='Title'>SWIGATO.</h1>
         <ul className='nav-menu'>
            <Link to={'/'}> <li>Home</li></Link>
            <a href='#Menu'> <li>Menu</li></a>

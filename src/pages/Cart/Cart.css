@@ -106,9 +106,13 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        gap: 40px;
     }
     .Cart-items-contents img{
         width:100px;
+    }
+    .cart-items h2{
+        margin-top: 10px;
     }
     .Total-amount{
       width: 300px;
