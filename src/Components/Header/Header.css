@@ -4,7 +4,7 @@
     margin: 34px auto;
     margin-bottom: 0px;
     border-radius: 15px;
-    background:url('https://www.freepik.com/free-photo/copy-space-breakfast-with-plain-background_5352484.htm#fromView=search&page=2&position=37&uuid=ae9ad970-7008-4d9c-a7c0-c539d454a33a') no-repeat;
+    background:url('src/assets/header_img.jpg') no-repeat;
     background-size: contain;
     position: relative;  
 }
