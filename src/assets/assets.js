@@ -50,7 +50,7 @@ import play_store from './play_store.png'
 import cross_icon from './cross_icon.png'
 import rating_starts from './rating_starts.png'
 import basket_icon from './basket_icon.png'
-import header_img from './header_img.jpg'
+import header_pic from './header_pic.jpg'
 import facebook_pic from './facebook_pic.png'
 import instagram_pic from './instagram_pic.png'
 import linkedin_pic from './linkedin_pic.png'
@@ -68,7 +68,7 @@ export const assets = {
     app_store,
     play_store,
     cross_icon,
-    header_img,
+    header_pic,
     youtube_pic,
     twitter_pic,
     linkedin_pic,
