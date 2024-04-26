@@ -8,7 +8,7 @@ const Header = () => {
         <p>Nothing brings people together like good food.We are always here to serve you</p>
        <a href='#Menu'> <button>Order Now</button></a>
       </div>
-
+      <p className='Attribution'>@Designed by Freepik</p>
     </div>
 
   )
