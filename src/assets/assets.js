@@ -55,6 +55,7 @@ import instagram_pic from './instagram_pic.png'
 import linkedin_pic from './linkedin_pic.png'
 import twitter_pic from './twitter_pic.png'
 import youtube_pic from './youtube_pic.png'
+import  headerpic  from './headerpic.jpg'
 
 
 export const assets = {
@@ -71,7 +72,8 @@ export const assets = {
     twitter_pic,
     linkedin_pic,
     instagram_pic,
-    facebook_pic
+    facebook_pic,
+    headerpic,
 }
 
 export const menu_list = [
