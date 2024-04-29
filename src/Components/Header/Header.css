@@ -4,7 +4,7 @@
     margin: 34px auto;
     margin-bottom: 0px;
     border-radius: 15px;
-    background:url('src/assets/header_pic.jpg') no-repeat;
+    background:url('public/header_pic.jpg') no-repeat;
     background-size: contain;
     position: relative;  
 }
