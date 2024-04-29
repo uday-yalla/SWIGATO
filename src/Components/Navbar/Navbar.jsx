@@ -8,7 +8,7 @@ const Navbar = ({setShowForm}) => {
   menuRef.current.style.right='0';
  }
  const closeMenu=()=>{
-  menuRef.current.style.right='-350px';
+  menuRef.current.style.right='-400px';
  }
 
 

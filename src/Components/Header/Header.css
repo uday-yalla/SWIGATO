@@ -1,11 +1,12 @@
 .Hero-section{
-    height: 50vw;
+    height: 55vw;
     width: 100%;
     margin: 34px auto;
     margin-bottom: 0px;
     border-radius: 15px;
     background:url('/src/assets/headerpic.jpg') no-repeat;
-    background-size: contain;
+    background-size:contain;
+    object-fit: contain;
     position: relative;  
 }
 
@@ -14,9 +15,9 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 3vw;
+    gap: 2.5vw;
     max-width: 50%;
-    bottom: 25%;
+    bottom: 30%;
     left: 6vw;
     animation: fadeIn 3s;
 }
@@ -62,6 +63,11 @@
 }
 
 @media (max-width:750px) {
+
+    .Hero-section{
+        margin-top: 20px;
+    }
+
     .Hero-contents p {
           display: none;
     }
@@ -69,7 +75,8 @@
         font-size: 12px;
     }
     .Hero-contents{
-        gap: 15px;
+        gap: 25px;
+        bottom: 20%;
     }
    
    
